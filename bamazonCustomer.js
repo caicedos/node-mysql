@@ -84,6 +84,7 @@ function menu() {
 
                     } else {
                         console.log("Insuficient quantity")
+                        menu()
                     }
                    
                 });
