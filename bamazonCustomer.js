@@ -78,13 +78,14 @@ function menu() {
                             function (err) {
                                 if (err) throw err;
                                 console.log("Transaction Successful!");
+                                menu()
                             }
                         );
 
                     } else {
                         console.log("Insuficient quantity")
                     }
-                    menu()
+                   
                 });
             });
         });
